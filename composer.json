@@ -1,0 +1,47 @@
+{
+    "name": "goletter/hyperf-modelfilter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+          "name": "goletter",
+          "email": "goletter@outlook.com"
+      }
+    ],
+    "keywords": [
+        "php",
+        "hyperf",
+        "filter"
+    ],
+    "description": "model filter for hyperf",
+    "autoload": {
+        "psr-4": {
+            "Goletter\\Modelfilter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HyperfTest\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-swoole": ">=4.4",
+        "hyperf/db-connection": "^3.1",
+        "hyperf/di": "3.1.*",
+        "hyperf/framework": "3.1.*"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "co-phpunit -c phpunit.xml --colors=always",
+        "analyse": "phpstan analyse --memory-limit 300M -l 0 ./src",
+        "cs-fix": "php-cs-fixer fix $1"
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Goletter\\ModelFilter\\ConfigProvider"
+        }
+    }
+}
