@@ -32,7 +32,7 @@ class ConfigProvider
                 [
                     'id' => 'config',
                     'description' => 'The config of modelFilter client.',
-                    'source' => __DIR__ . '/config/modelfilter.php',
+                    'source' => __DIR__ . '/publish/modelfilter.php',
                     'destination' => BASE_PATH . '/config/autoload/modelfilter.php',
                 ],
             ],
