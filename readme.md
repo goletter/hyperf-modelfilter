@@ -11,7 +11,7 @@
  
  在模型中使用trait
  
- use Goletter\Modelfilter\Filterable;
+ use Goletter\ModelFilter\Filterable;
  class Tag extends Model
  {
     use Filterable;
@@ -21,7 +21,7 @@
  
  在app/Model/Filters中创建模型名+Filter的文件
  
-use Goletter\Modelfilter\ModelFilter;
+use Goletter\ModelFilter\ModelFilter;
 class TagFilter extends ModelFilter
 {
     public function id($value)
