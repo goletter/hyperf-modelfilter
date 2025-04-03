@@ -21,7 +21,7 @@ return [
      |
      */
 
-    'namespace' => 'App\\Model\\ModelFilters\\',
+    'namespace' => 'App\\Model\\Filters\\',
 
     /*
     |--------------------------------------------------------------------------
