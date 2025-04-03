@@ -11,7 +11,7 @@
  
  在模型中使用trait
  
- use Goletter\Modelfilter\ModelFilter;
+ use Goletter\Modelfilter\Filterable;
  class Tag extends Model
  {
     use Filterable;
