@@ -16,7 +16,7 @@
     "description": "model filter for hyperf",
     "autoload": {
         "psr-4": {
-            "Goletter\\Modelfilter\\": "src/"
+            "Goletter\\ModelFilter\\": "src/"
         }
     },
     "autoload-dev": {

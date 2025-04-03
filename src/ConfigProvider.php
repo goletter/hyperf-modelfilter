@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Goletter\Modelfilter;
+namespace Goletter\ModelFilter;
 
 class ConfigProvider
 {
@@ -17,7 +17,7 @@ class ConfigProvider
     {
         return [
             'dependencies' => [
-                Modelfilter::class => \Goletter\Modelfilter\Modelfilter::class,
+                ModelFilter::class => \Goletter\ModelFilter\Modelfilter::class,
             ],
             'commands' => [
             ],

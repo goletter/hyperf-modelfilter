@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Goletter\Modelfilter;
+namespace Goletter\ModelFilter;
 
 use Closure;
 use Hyperf\Database\Model\Builder as QueryBuilder;
